@@ -392,7 +392,7 @@ footer{
 }
 
  /* For the div wrapped around that paragraph to show the space its taking up within its container */
-#section2 div{
+#section2 div {
     border: 1px solid var(--teal);
 }
 
@@ -404,7 +404,7 @@ footer{
         - change the color of the border to the lt-blue color
         - add the small box shadow, using the variable in the root
 */
-#section2 a:first-of-type:hover{
+#section2 a:first-of-type:hover {
     background-color: var(--dk-blue);
     color: var(--white);
     border-color: var(--lt-blue);
@@ -412,7 +412,7 @@ footer{
 
 }
 
-#section2 a:last-of-type:hover{
+#section2 a:last-of-type:hover {
     background-color: var(--lt-blue);
     color: var(--dk-gray);
     border-color: var(--dk-blue);
@@ -432,7 +432,7 @@ footer{
         - add margin to center this element
         - add the small filter drop shadow from the CSS variables in the root
 */
-#section3 img{
+#section3 img {
     display: block;
     width: 200px;
     height: auto;
@@ -441,7 +441,7 @@ footer{
     
 }
 
-#section3 div::before{
+#section3 div::before {
     content: "";
     display: block;
     width: 75px;
@@ -479,7 +479,18 @@ footer{
         - move this up from its original location by 50px
         - move this to the right from its original location by 25px
 */
-#section3 div::after{
+#section3 div::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--lt-blue);
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    top: -50px;
+    left: 25px;
+    
 }
 
 
@@ -501,6 +512,7 @@ footer{
             - left: 0
 */
 #section4 p:last-of-type{
+    margin: 1rem 0;
 
 }
 
@@ -538,6 +550,7 @@ footer{
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
+    background: var(--lt-blue) center url("images/puppy-photo.jpg");
     
 }
 
