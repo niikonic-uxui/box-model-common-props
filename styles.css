@@ -344,7 +344,7 @@ footer{
     box-shadow: var(--box-shadow-lg);
 }
 /* For the first link in this section: */
-#section2 a:first-of-type{
+#section2 a:first-of-type {
     background-color: var(--lt-blue);
     color: var(--dk-gray);
     padding: 16px;
@@ -354,12 +354,12 @@ footer{
 }
 
 /* For the paragraph with placeholder text */
-#section2 p:nth-of-type(2){
+#section2 p:nth-of-type(2) {
     margin: 1rem 0;
 }
 
 /* For the last link in this section */
-#section2 a:last-of-type{
+#section2 a:last-of-type {
     background-color: var(--dk-blue);
     color: var(--white);
     padding: 8px;
@@ -384,8 +384,11 @@ footer{
             - bottom: 16px
             - left: 60px
 */
-#section2 div > p:last-of-type{
-    
+#section2 div > p:last-of-type {
+    background-color: teal;
+    border: 4px dashed darkgray;
+    margin: 16px 60px 32px 8px;
+    padding: 32px 8px 16px 60px;    
 }
 
  /* For the div wrapped around that paragraph to show the space its taking up within its container */
@@ -402,6 +405,10 @@ footer{
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
+    background-color: var(--dk-blue);
+    color: var(--white);
+    border-color: var(--lt-blue);
+    box-shadow: var(--box-shadow-sm);
 
 }
 
