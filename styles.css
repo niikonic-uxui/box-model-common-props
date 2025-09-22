@@ -577,7 +577,10 @@ footer{
         - scale the background image to 110% 
         - add the wood background texture from the images folder
 */
-#pattern1{
+#pattern1 {
+    background-color: var(--light-gray);
+    background-size: 110%;
+    background-image: url("images/wood.png");
     
 }
 
